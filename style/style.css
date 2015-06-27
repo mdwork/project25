@@ -202,10 +202,12 @@ a:hover                        { text-decoration:none; }
             margin-bottom: 8px;
             text-transform: uppercase;
         }
-    .box-calc a {
+    .box-calc button,
+    .send-form-calc {
         display: block;
         width: 150px;
         height: 37px;
+        padding: 0;
         margin-left: 115px;
         line-height: 37px;
         font-size: 16px;
@@ -214,6 +216,7 @@ a:hover                        { text-decoration:none; }
         text-decoration: none;
         background: #a7c9f2;
         text-align: center;
+        border: none;
 
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
@@ -273,6 +276,36 @@ a:hover                        { text-decoration:none; }
             width: 100%;
             font: italic 14pt Arial, serif;
             color: #f1f1f1;
+        }
+.calc-price-car {
+    margin-bottom: 50px;
+}
+    .calc-price-car b {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 16pt;
+    }
+    .calc-price-car p {
+        margin-bottom: 20px;
+        font-size: 14pt;
+    }
+    .form-calc {
+
+    }
+        .form-calc .text {
+            display: block;
+            width: 355px;
+            padding: 5px 5px;
+            margin-bottom: 10px;
+            border: 1px solid #cdcdcd;
+            font-size: 12px;
+
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+        .form-calc .send-form-calc {
+            margin: 20px 0 0 0;
         }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
