@@ -60,6 +60,7 @@ a:hover                        { text-decoration:none; }
 /*-------------------------------------HEADER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 .header {
+    overflow: hidden;
     height: 533px;
     margin-bottom: 15px;
     color: #fff;
@@ -145,11 +146,89 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
+.list-advantages {
+    overflow: hidden;
+    margin-bottom: 75px;
+    color: #f1f1f1;
+}
+    .list-advantages li {
+        float: left;
+        width: 310px;
+        height: 147px;
+        margin-left: 10px;
+        background: url("../images/content/bg_block.png") no-repeat;
+    }
+    .list-advantages li:first-child {
+        margin-left: 0;
+    }
+    .list-advantages .second {
+        background-position: -320px 0;
+    }
+    .list-advantages .third {
+        background-position: -640px 0;
+    }
+        .list-advantages .name-box {
+            display: block;
+            height: 55px;
+            margin: 25px 0 0 80px;
+            line-height: 1.2;
+        }
+            .list-advantages .name-box span {
+                display: block;
+                font-weight: bold;
+            }
+        .list-advantages .desc {
+            display: block;
+            margin: 0 30px;
+            font-size: 12px;
+            color: #a7c9f2;
+        }
 
-/*----------------------------------------------------------------------------------*/
-/*-------------------------------------SIDEBAR--------------------------------------*/
-/*----------------------------------------------------------------------------------*/
+.box-calc {
+    float: left;
+    min-height: 105px;
+    margin-right: 45px;
+    background: url("../images/content/calc.png") no-repeat left top;
+}
+    .box-calc .text {
+        display: block;
+        margin: -8px 0 0 115px;
+        font-size: 18pt;
+        font-weight: bold;
+        color: #1a2025;
+    }
+        .box-calc .text span {
+            display: block;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+    .box-calc a {
+        display: block;
+        width: 150px;
+        height: 37px;
+        margin-left: 115px;
+        line-height: 37px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+        background: #a7c9f2;
+        text-align: center;
 
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+.box-text {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+    .box-text p,
+    .box-text b {
+        display: block;
+        margin-bottom: 10px;
+        line-height: 1.2;
+    }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
