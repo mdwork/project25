@@ -217,10 +217,15 @@ a:hover                        { text-decoration:none; }
         background: #a7c9f2;
         text-align: center;
         border: none;
+        transition: 0.3s;
 
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
+    }
+    .box-calc button:hover,
+    .send-form-calc:hover {
+        background: #95b8e1;
     }
 .box-text {
     overflow: hidden;
@@ -278,7 +283,7 @@ a:hover                        { text-decoration:none; }
             color: #f1f1f1;
         }
 .calc-price-car {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
     .calc-price-car b {
         display: block;
@@ -288,9 +293,6 @@ a:hover                        { text-decoration:none; }
     .calc-price-car p {
         margin-bottom: 20px;
         font-size: 14pt;
-    }
-    .form-calc {
-
     }
         .form-calc .text {
             display: block;
