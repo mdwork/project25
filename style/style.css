@@ -229,6 +229,51 @@ a:hover                        { text-decoration:none; }
         margin-bottom: 10px;
         line-height: 1.2;
     }
+.services {
+    height: 249px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    color: #fff;
+    background: url("../images/content/bg_service.jpg") no-repeat center top;
+    text-align: center;
+}
+    .services .container {
+        position: relative;
+        height: 100%;
+    }
+        .services h2 {
+            margin-bottom: 50px;
+            font-size: 18pt;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .list-services {
+            overflow: hidden;
+        }
+            .list-services li {
+                display: inline-block;
+                width: 295px;
+                margin: 0 15px;
+                font-size: 14pt;
+                font-weight: bold;
+                vertical-align: top;
+                color: #f1f1f1;
+                line-height: 1.3;
+            }
+            .list-services li:first-child {
+                margin-left: 0;
+            }
+            .list-services li:last-child {
+                margin-right: 0;
+            }
+        .services blockquote {
+            position: absolute;
+            bottom: 10px;
+            display: block;
+            width: 100%;
+            font: italic 14pt Arial, serif;
+            color: #f1f1f1;
+        }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
